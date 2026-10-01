@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body{
+            background-color: #ece9e9;
+        }
+        #outer {
+            height: 550px;
+            width: 100%;
+            border: 1px solid #ece9e9;
+            padding-top: 30px;
+            font-family: calibri;
+            font-weight: bold;
+            
+        }
+
+        #r1 {
+            height: 60px;
+            width: 100%;
+            background-color:white ;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        #r1con1{
+            height: 50px;
+            width: 20%;
+            float: left;
+            
+        }
+        #r1con2{
+            height: 50px;
+            width: 60%;
+            float: left;
+            margin-bottom: 10px;
+        }
+        #but{
+            background-color: blue;
+            border-radius: 5px;
+            color:white;
+            padding: 8px;
+            margin-right: 15px;
+            
+            
+        }
+        #r1con3{
+            height: 50px;
+            width: 20%;
+            float: left;
+            padding-top: 11px;
+            text-align: right;
+
+        }
+        
+
+        #r1 ul li {
+            display: inline;
+        }
+
+        #r1 ul li a {
+            text-decoration: none;
+            color: gray;
+            
+            font-size: 20px;
+            margin-left: 40px;
+            font-weight: 700;
+        }
+        #r1 ul li a:hover{
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+
+        #r2 {
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        #r2con1{
+            height: 50px;
+            width: 20%;
+            float: left;
+            
+        }
+        #r2con2{
+            height: 50px;
+            width: 60%;
+            float: left;
+            margin-bottom: 10px;
+        }
+    
+        
+        #r2con3{
+            height: 50px;
+            width: 20%;
+            float: left;
+            padding-top: 11px;
+            text-align: right;
+
+        }
+        
+
+        #r2 ul li {
+            display: inline;
+        }
+
+        #r2 ul li a {
+            text-decoration: none;
+            color: white;
+            
+            font-size: 20px;
+            margin-left: 40px;
+            font-weight: 700;
+        }
+        #r2 ul li a:hover{
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+        #r3 {
+            height: 60px;
+            width: 100%;
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        #r3con1{
+            height: 50px;
+            width: 20%;
+            float: left;
+            
+        }
+        #r3con2{
+            height: 50px;
+            width: 60%;
+            float: left;
+            margin-bottom: 10px;
+        }
+        #but1{
+            background-color: white;
+            border-radius: 20px;
+            color:blue;
+            padding: 8px;
+            margin-right: 10px;
+            
+            
+        }
+        #r3con3{
+            height: 50px;
+            width: 20%;
+            float: left;
+            padding-top: 11px;
+            text-align: right;
+
+        }
+        
+
+        #r3 ul li {
+            display: inline;
+        }
+
+        #r3 ul li a {
+            text-decoration: none;
+            color: gray;
+            
+            font-size: 20px;
+            margin-left: 40px;
+            font-weight: 700;
+        }
+        #r3 ul li a:hover{
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+
+        #r4 {
+            height: 65px;
+            width: 100%;
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        #r4con1{
+            height: 50px;
+            width: 30%;
+            float: left;
+            
+        }
+        #r4con2{
+            height: 50px;
+            width: 40%;
+            float: left;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            background-color: rgb(185, 177, 177) ;
+            margin-top: 7px;
+        }
+    
+        
+        #r4con3{
+            height: 50px;
+            width: 30%;
+            float: left;
+            padding-top: 11px;
+            text-align: right;
+
+        }
+        
+
+        #r4 ul li {
+            display: inline;
+        }
+
+        #r4 ul li a {
+            text-decoration: none;
+            color: black;
+            
+            font-size: 20px;
+            margin-left: 40px;
+            font-weight: 700;
+        }
+        #r4 ul li a:hover{
+            color: blue;
+           
+        }
+
+        #r5 {
+            height: 60px;
+            width: 100%;
+            background-color: darkblue;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        #r5con1{
+            height: 50px;
+            width: 20%;
+            float: left;
+            
+        }
+        #r5con2{
+            height: 50px;
+            width: 60%;
+            float: left;
+            margin-bottom: 10px;
+        }
+        #but5{
+            background-color: darkblue;
+            border-radius: 20px;
+            color:white;
+            padding: 8px;
+            margin-right: 10px;
+            
+            
+        }
+        #r5con3{
+            height: 50px;
+            width: 20%;
+            float: left;
+            padding-top: 11px;
+            text-align: right;
+
+        }
+        
+
+        #r5 ul li {
+            display: inline;
+        }
+
+        #r5 ul li a {
+            text-decoration: none;
+            color: white;
+            
+            font-size: 20px;
+            margin-left: 40px;
+            font-weight: 700;
+        }
+        #r5 ul li a:hover{
+            color: white;
+            border-bottom: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        1.Classic Clean Header
+        <div id="r1">
+            <div id="r1con1">
+                <img src="pngtree-women-nature-logo-png-image_4546651-removebg-preview.png" alt="" height="60px" width="60px"  style="border-radius: 20px;">
+                
+            </div>
+            <div id="r1con2">
+                  <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div id="r1con3">
+                <button id="but">Get Started</button>
+            </div>
+            
+          
+        </div>
+        2.Drak Theme Header
+        <div id="r2">
+            <div id="r2con1">
+                <img src="pngtree-women-nature-logo-png-image_4546651-removebg-preview.png" alt="" height="60px" width="60px"  style="border-radius: 20px;">
+                
+            </div>
+            <div id="r2con2">
+                  <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div id="r2con3">
+                <img src="pngtree-whatsapp-default-profile-photo-vector-png-image_22204331.png" alt="" height="50px" width="50px" style="margin-right: 20px;">
+            </div> 
+        </div>
+        3.Minimum with logo left and button right Header
+        <div id="r3">
+            <div id="r3con1">
+                <img src="pngtree-women-nature-logo-png-image_4546651-removebg-preview.png" alt="" height="60px" width="60px"  style="border-radius: 20px;">
+                
+            </div>
+            <div id="r3con2">
+                  <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div id="r3con3">
+                <button id="but1">Login</button>
+            </div>
+        </div>
+        4.Modern Card style header
+        <div id="r4">
+             <div id="r4con1">
+                <img src="pngtree-women-nature-logo-png-image_4546651-removebg-preview.png" alt="" height="60px" width="60px"  style="border-radius: 20px;">
+                
+            </div>
+            <div id="r4con2">
+                  <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div id="r4con3">
+                 <img src="pngtree-whatsapp-default-profile-photo-vector-png-image_22204331.png" alt="" height="50px" width="50px" style="margin-right: 20px;">
+            </div>
+
+        </div>
+        5.Image/gredient Header
+        <div id="r5">
+            <div id="r5con1">
+                <img src="pngtree-women-nature-logo-png-image_4546651-removebg-preview.png" alt="" height="60px" width="60px"  style="border-radius: 20px;">
+                
+            </div>
+            <div id="r5con2">
+                  <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+            <div id="r5con3">
+                <button id="but5">Get in Touch</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
